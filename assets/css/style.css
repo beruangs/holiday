@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #95d9e6;
+  background: #064f5c;
   color: #fff;
 }
 
@@ -852,7 +852,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 button[type="green"] {
-  background: #64868c;
+  background: #64878e;
   border: 0;
   padding: 10px 20px;
   color: rgb(241, 238, 238);
