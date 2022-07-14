@@ -11,24 +11,25 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #c1c1c1;
-  background: #352e2e;
+  background: #1b1e1f;
 }
 .highlight {
-  color: #eb455b!important;
-  font-weight: 1000!important;
+  color: #ffffff!important;
+  font-weight: 350!important;
   font-size: 20px!important ;
 }
 .highlight2 {
-  color: #eb455b!important;
-  font-weight: 1000!important;
+  color: #eb3966!important;
+  font-weight: 750!important;
+  font-size: 20px!important ;
 }
 a {
-  color: #5663F7;
+  color: #64868c;
   text-decoration: none;
 }
 
 a:hover {
-  color: #34e5a6;
+  color: #95d9e6;
   text-decoration: none;
 }
 
@@ -55,8 +56,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5663F7;
-  border-top-color: #7aadf0;
+  border: 6px solid #64868c;
+  border-top-color: #ffffff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -100,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5663F7;
+  background: #64868c;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -114,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #2be4a2;
+  background: #95d9e6;
   color: #fff;
 }
 
@@ -220,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #5663F7;
+  background-color: #64868c;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -268,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #5663F7;
+  color: #64868c;
 }
 
 .navbar .dropdown:hover > ul {
@@ -327,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: rgb(11, 85, 100);
   transition: 0.3s;
   z-index: 999;
 }
@@ -359,11 +360,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2a2dc5;
+  color: #3a5257;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3f43fd;
+  color: #38595f;
 }
 
 .navbar-mobile .getstarted {
@@ -395,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #5663F7;
+  color: #64868c;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -414,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(15, 44, 99, 0.973);
+  background: rgb(92, 158, 190);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -432,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #5663F7;
+  border-bottom: 4px solid #64868c;
 }
 
 #hero h2 {
@@ -457,11 +458,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #5663F7;
+  background: #64868c;
 }
 
 #hero .btn-get-started:hover {
-  background: #2a36b6;
+  background: #064f5c;
 }
 
 #hero .animated {
@@ -673,7 +674,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5663F7;
+  background: #64868c;
   margin: 4px 10px;
 }
 
@@ -684,7 +685,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #5663F7;
+  color: #64868c;
 }
 
 /*--------------------------------------------------------------
@@ -777,7 +778,7 @@ section {
 .about .icon-boxes h4 {
   font-size: 28px;
   font-weight: 70;
-  color: #5663F7;
+  color: #64868c;
 }
 
 .about .icon-box .icon {
@@ -792,12 +793,12 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #5663F7;
+  color: #64868c;
   font-size: 40px;
 }
 
 .about .icon-box .icon b {
-  color: #5663F7;
+  color: #64868c;
   font-size: 20px;
 }
 
@@ -815,7 +816,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #5663F7;
+  color: #64868c;
 }
 
 .about .icon-box .description {
@@ -890,12 +891,12 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #5663F7;
+  color: #64868c;
   transition: all 0.1s ease;
 }
 
 .features .icon-box h3 a:hover {
-  color: #3e4bd3;
+  color: #d4dde0;
 }
 
 .features .icon-box:hover {
@@ -913,7 +914,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #3f43fd;
+  color: #1b1e1f;
   float: left;
   width: 44px;
   height: 44px;
@@ -930,14 +931,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #5663F7;
+  color: #64868c;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #2a2dc5;
+  color: #1b1e1f;
 }
 
 .contact .info .email, .contact .info .phone {
@@ -945,7 +946,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #5663F7;
+  background: #64868c;
   color: #fff;
 }
 
@@ -961,7 +962,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #57F287;
+  background: #95d9e6;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -974,7 +975,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #57F287;
+  background: #95d9e6;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -994,8 +995,8 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #373ad4;
+  border: 3px solid #95d9e6;
+  border-top-color: #1b1e1f;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1015,7 +1016,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #5663F7;
+  background: #64868c;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1024,10 +1025,10 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #34e5a6;
+  background: #95d9e6;
 }
 button[type="green"] {
-  background: #5663F7;
+  background: #64868c;
   border: 0;
   padding: 10px 20px;
   color: rgb(241, 238, 238);
@@ -1036,7 +1037,7 @@ button[type="green"] {
 }
 
 button[type="green"]:hover {
-  background: #48f0b5;
+  background: #064f5c;
 }
 button[type="red"] {
   background: #f7ac56 ;
@@ -1081,7 +1082,7 @@ button[type="red"]:hover {
 # Linktree
 --------------------------------------------------------------*/
 .linkt body {
-  background-color: #352E2E;
+  background-color: #1b1e1f;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1187,19 +1188,19 @@ button[type="red"]:hover {
   margin-top: 100px;
   font-size: 20px;
   text-align: center;
-  border-bottom: 3px solid #D37968;
-  box-shadow: inset 0 -4px 0 #D37968;
-  border: 1px solid #D37968;
-  background-color: #D37968;
+  border-bottom: 3px solid #7eabb4;
+  box-shadow: inset 0 -4px 0 #7eabb4;
+  border: 1px solid #7eabb4;
+  background-color: #7eabb4;
 }
 
 .linkt .linkt_second {
   font-size: 20px;
   text-align: center;
-  border-bottom: 3px solid #E6C783;
-  box-shadow: inset 0 -4px 0 #E6C783;
-  border: 1px solid #E6C783;
-  background-color: #E6C783;
+  border-bottom: 3px solid #aacdd4;
+  box-shadow: inset 0 -4px 0 #aacdd4;
+  border: 1px solid #aacdd4;
+  background-color: #aacdd4;
 }
 
 .linkt .linkt_third {
@@ -1247,7 +1248,7 @@ button[type="red"]:hover {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #352e2e;
+  background: #1b1e1f;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1298,7 +1299,7 @@ button[type="red"]:hover {
 }
 
 #footer  .social-links a:hover {
-  background: #5663F7;
+  background: #64868c;
   color: #fff;
   text-decoration: none;
 }
@@ -1346,7 +1347,7 @@ button[type="red"]:hover {
 }
 
 #footer  .footer-links ul a:hover {
-  color: #4be8b0;
+  color: #1b1e1f;
 }
 
 #footer  .footer-newsletter form {
@@ -1372,7 +1373,7 @@ button[type="red"]:hover {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #5663F7;
+  background: #64868c;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
