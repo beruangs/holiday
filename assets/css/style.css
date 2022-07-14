@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgb(92, 158, 190);
+  background: #77bde3;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation: up-down 3s ease-in-out infinite alternate-reverse both;
 }
 
 @media (min-width: 1024px) {
@@ -539,29 +539,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-waves {
   display: block;
-  margin-top: 60px;
+  margin-top: 50px;
   width: 100%;
   height: 60px;
-  z-index: 5;
+  z-index: 10;
   position: relative;
 }
 
 .wave1 use {
-  -webkit-animation: move-forever1 10s linear infinite;
+  -webkit-animation: move-forever1 12s linear infinite;
   animation: move-forever1 10s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
 }
 
 .wave2 use {
-  -webkit-animation: move-forever2 8s linear infinite;
+  -webkit-animation: move-forever2 10s linear infinite;
   animation: move-forever2 8s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
 }
 
 .wave3 use {
-  -webkit-animation: move-forever3 6s linear infinite;
+  -webkit-animation: move-forever3 8s linear infinite;
   animation: move-forever3 6s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
@@ -669,7 +669,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #64868c;
   font-family: "Poppins", sans-serif;
 }
 
@@ -690,66 +690,6 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #64868c;
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background-color: #23272A;
-  min-height: 40px;
-  margin-top: 80px;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 64px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 400;
-  margin: 0;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs h2 {
-    margin: 0 0 10px 0;
-  }
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -911,126 +851,6 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #23272A;
-}
-
-.contact .info i {
-  font-size: 20px;
-  color: #1b1e1f;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #33393d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #64868c;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #1b1e1f;
-}
-
-.contact .info .email, .contact .info .phone {
-  margin-top: 40px;
-}
-
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #64868c;
-  color: #fff;
-}
-
-.contact .php-email-form {
-  width: 100%;
-  background: #23272A;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #95d9e6;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #95d9e6;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #23272A;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #95d9e6;
-  border-top-color: #1b1e1f;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #64868c;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #95d9e6;
-}
 button[type="green"] {
   background: #64868c;
   border: 0;
@@ -1213,20 +1033,6 @@ button[type="red"]:hover {
 
   border: 2px solid #bedde8;
   background-color: #bedde8;
-}
-
-.linkt .linkt_fourth {
-  box-shadow: inset 0 -4px 0 #73e2a7;
-
-  border: 2px solid #73e2a7;
-  background-color: #73e2a7;
-}
-
-.linkt .linkt_fifth {
-  border-bottom: 3px solid #ffc15e;
-  box-shadow: inset 0 -4px 0 #ffc15e;
-  border: 2px solid #ffc15e;
-  background-color: #ffc15e;
 }
 
 .linkt .channels {
